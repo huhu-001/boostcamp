@@ -1,13 +1,13 @@
 /**
  * @ Author: dqhu
  * @ Create Time: 2022-03-10 16:29:19
- * @ Modified time: 2022-03-10 16:44:39
+ * @ Modified time: 2022-03-11 10:39:38
  * @ Description:
  */
 
 import React from 'react';
 import Navigator from '@/navigator/index';
-import { StatusBar,View,Text } from 'react-native';
+import { StatusBar} from 'react-native';
 
 const Index = () => {
   return (

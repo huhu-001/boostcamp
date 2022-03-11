@@ -1,7 +1,7 @@
 /**
  * @ Author: dqhu
  * @ Create Time: 2022-03-10 20:50:39
- * @ Modified time: 2022-03-11 10:05:47
+ * @ Modified time: 2022-03-11 10:08:11
  * @ Description:基于fetch 封装的网络请求工具类
  */
 import { Alert} from 'react-native';
