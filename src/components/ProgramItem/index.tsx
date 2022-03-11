@@ -1,3 +1,9 @@
+/**
+ * @ Author: dqhu
+ * @ Create Time: 2022-03-10 20:18:39
+ * @ Modified time: 2022-03-11 10:00:41
+ * @ Description:ProgramItem
+ */
 import React from 'react';
 import {
   Image,
@@ -18,7 +24,7 @@ interface Props {
 
 export const ProgramItem = ({item, navigation}: Props) => {
 
-  // 点击事件
+  // 点击进入详情
   const goProgramDetail = () => {
     navigation.navigate('ProgramDetail', {id:item.id});
   };

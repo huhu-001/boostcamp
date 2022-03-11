@@ -1,7 +1,7 @@
 /**
  * @ Author: dqhu
  * @ Create Time: 2022-03-10 17:03:31
- * @ Modified time: 2022-03-11 09:49:47
+ * @ Modified time: 2022-03-11 09:58:29
  * @ Description:
  */
 
@@ -41,6 +41,7 @@ export default class TabBar extends Component {
     return (
       <TouchableOpacity
         style={{flex: 1}}
+        key={name}
         onPress={() => onPressHandler(page)}>
         <View style={[styles.tab]}>
           <Text style={[{color: textColor, fontWeight}]}>

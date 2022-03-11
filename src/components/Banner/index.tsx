@@ -1,7 +1,7 @@
 /**
  * @ Author: dqhu
  * @ Create Time: 2022-03-10 22:26:58
- * @ Modified time: 2022-03-10 22:32:40
+ * @ Modified time: 2022-03-11 10:02:36
  * @ Description:  详情banner图片
  */
 
@@ -19,7 +19,7 @@ export const Banner = ({banner}: Props) => (
       <Image source={{uri: banner}} style={styles.image} />
     ) : (
       <View style={styles.image}>
-        <Text>没有图片显示占位图</Text>
+        <Text>没有图片显示占位图避免警告</Text>
       </View>
     )}
   </View>

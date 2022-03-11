@@ -1,10 +1,9 @@
 /**
  * @ Author: dqhu
  * @ Create Time: 2022-03-10 22:33:17
- * @ Modified time: 2022-03-11 09:27:39
+ * @ Modified time: 2022-03-11 10:00:20
  * @ Description: WorkOutsItem
  */
-
 import React, {useState} from 'react';
 import {
   Image,
@@ -74,6 +73,7 @@ export const WorkOutsItem = ({week}: Props) => {
     });
   };
 
+  // 点击执行动画
   const _openOrCloseCell = () => {
     _executeTransYAnim();
     // 只有当按钮不处于翻转状态才执行动画
